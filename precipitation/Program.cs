@@ -1,25 +1,15 @@
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.MapGet("/precipfirstservice/{zip}", (string? zip)=>{
 
-app.UseHttpsRedirection();
+if(zip==null)
+return Results.BadRequest("please enter a zip code");
+else
+return Results.Ok(zip); //this is the service in this microservice (as webapi way)
 
-app.UseAuthorization();
-
-app.MapControllers();
+});
 
 app.Run();
