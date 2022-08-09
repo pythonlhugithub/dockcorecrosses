@@ -1,0 +1,15 @@
+C:\dockcorecross\dataloader\bin\Debug\net6.0\dataloader.exe
+C:\dockcorecross\dataloader\bin\Debug\net6.0\dataloader.deps.json
+C:\dockcorecross\dataloader\bin\Debug\net6.0\dataloader.runtimeconfig.json
+C:\dockcorecross\dataloader\bin\Debug\net6.0\dataloader.dll
+C:\dockcorecross\dataloader\bin\Debug\net6.0\dataloader.pdb
+C:\dockcorecross\dataloader\obj\Debug\net6.0\dataloader.csproj.AssemblyReference.cache
+C:\dockcorecross\dataloader\obj\Debug\net6.0\dataloader.GeneratedMSBuildEditorConfig.editorconfig
+C:\dockcorecross\dataloader\obj\Debug\net6.0\dataloader.AssemblyInfoInputs.cache
+C:\dockcorecross\dataloader\obj\Debug\net6.0\dataloader.AssemblyInfo.cs
+C:\dockcorecross\dataloader\obj\Debug\net6.0\dataloader.csproj.CoreCompileInputs.cache
+C:\dockcorecross\dataloader\obj\Debug\net6.0\dataloader.dll
+C:\dockcorecross\dataloader\obj\Debug\net6.0\refint\dataloader.dll
+C:\dockcorecross\dataloader\obj\Debug\net6.0\dataloader.pdb
+C:\dockcorecross\dataloader\obj\Debug\net6.0\dataloader.genruntimeconfig.cache
+C:\dockcorecross\dataloader\obj\Debug\net6.0\ref\dataloader.dll
