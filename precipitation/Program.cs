@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+var app = builder.Build();
 
 builder.Services.AddDbContext<PrecipDbContext>(
     opts=>{
@@ -11,9 +12,6 @@ builder.Services.AddDbContext<PrecipDbContext>(
         opts.UseSqlServer(builder.Configuration.GetConnectionString("AppDb"));
     }, ServiceLifetime.Transient
 );  //link program.cs to dbcontext database
-
-var app = builder.Build();
-
 
 
 app.MapGet("/precipfirstservice/{zip}", async(string? zip, [FromQuery] int? days, PrecipDbContext db)=>{
@@ -27,6 +25,16 @@ var results=await db.Precipitation.Where(p=>p.ZipCode==zip).ToListAsync();
 
 
 return Results.Ok(results); 
+
+});
+
+
+
+app.MapPost("/precipfirstservice", async(Precipitation precip, PrecipDbContext db)=>{
+
+precip.CreatedOn=precip.CreatedOn.ToUniversalTime();
+await db.AddAsync(precip);
+await db.SaveChangesAsync(); //commit
 
 });
 
