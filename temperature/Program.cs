@@ -15,7 +15,7 @@ builder.Services.AddDbContext<TemperDbContext>(
 
 var app = builder.Build();
 
-app.MapGet("/temperfirstservice/{zip}", async(string? zip, [FromQuery] int? days, TemperDbContext db)=>{
+app.MapGet("/okkv/{zip}", async(string? zip, [FromQuery] int? days, TemperDbContext db)=>{
 
 // if(zip==null)
 // return Results.BadRequest("please enter a zip code");
@@ -31,7 +31,7 @@ return Results.Ok(results);
 
 
 
-app.MapPost("/temperfirstservice", async(Temperature temper, TemperDbContext db)=>{
+app.MapPost("/okkv", async(Temperature temper, TemperDbContext db)=>{
 
 temper.CreatedOn=temper.CreatedOn.ToUniversalTime();
 await db.AddAsync(temper);

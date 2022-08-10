@@ -1,0 +1,7 @@
+C:\dockcorecross\reports\obj\Debug\net6.0\reports.csproj.AssemblyReference.cache
+C:\dockcorecross\reports\obj\Debug\net6.0\reports.GeneratedMSBuildEditorConfig.editorconfig
+C:\dockcorecross\reports\obj\Debug\net6.0\reports.AssemblyInfoInputs.cache
+C:\dockcorecross\reports\obj\Debug\net6.0\reports.AssemblyInfo.cs
+C:\dockcorecross\reports\obj\Debug\net6.0\reports.csproj.CoreCompileInputs.cache
+C:\dockcorecross\reports\obj\Debug\net6.0\reports.MvcApplicationPartsAssemblyInfo.cs
+C:\dockcorecross\reports\obj\Debug\net6.0\reports.MvcApplicationPartsAssemblyInfo.cache

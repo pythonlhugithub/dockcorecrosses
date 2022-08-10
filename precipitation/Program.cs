@@ -14,7 +14,7 @@ builder.Services.AddDbContext<PrecipDbContext>(
 );  //link program.cs to dbcontext database
 
 
-app.MapGet("/precipfirstservice/{zip}", async(string? zip, [FromQuery] int? days, PrecipDbContext db)=>{
+app.MapGet("/okkv/{zip}", async(string? zip, [FromQuery] int? days, PrecipDbContext db)=>{
 
 // if(zip==null)
 // return Results.BadRequest("please enter a zip code");
@@ -30,7 +30,7 @@ return Results.Ok(results);
 
 
 
-app.MapPost("/precipfirstservice", async(Precipitation precip, PrecipDbContext db)=>{
+app.MapPost("/okkv", async(Precipitation precip, PrecipDbContext db)=>{
 
 precip.CreatedOn=precip.CreatedOn.ToUniversalTime();
 await db.AddAsync(precip);
