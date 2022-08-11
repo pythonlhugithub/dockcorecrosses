@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dockcorecross\\precipitation\\precipitation.csproj": {}
+    "C:\\dockcorecross\\Precipitation\\precipitation.csproj": {}
   },
   "projects": {
-    "C:\\dockcorecross\\precipitation\\precipitation.csproj": {
+    "C:\\dockcorecross\\Precipitation\\precipitation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dockcorecross\\precipitation\\precipitation.csproj",
+        "projectUniqueName": "C:\\dockcorecross\\Precipitation\\precipitation.csproj",
         "projectName": "precipitation",
-        "projectPath": "C:\\dockcorecross\\precipitation\\precipitation.csproj",
+        "projectPath": "C:\\dockcorecross\\Precipitation\\precipitation.csproj",
         "packagesPath": "C:\\Users\\AG_2021SER01\\.nuget\\packages\\",
-        "outputPath": "C:\\dockcorecross\\precipitation\\obj\\",
+        "outputPath": "C:\\dockcorecross\\Precipitation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AG_2021SER01\\AppData\\Roaming\\NuGet\\NuGet.Config",
