@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dockcorecross\\temperature\\temperature.csproj": {}
+    "C:\\dockcorecross\\Temperature\\temperature.csproj": {}
   },
   "projects": {
-    "C:\\dockcorecross\\temperature\\temperature.csproj": {
+    "C:\\dockcorecross\\Temperature\\temperature.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dockcorecross\\temperature\\temperature.csproj",
+        "projectUniqueName": "C:\\dockcorecross\\Temperature\\temperature.csproj",
         "projectName": "temperature",
-        "projectPath": "C:\\dockcorecross\\temperature\\temperature.csproj",
+        "projectPath": "C:\\dockcorecross\\Temperature\\temperature.csproj",
         "packagesPath": "C:\\Users\\AG_2021SER01\\.nuget\\packages\\",
-        "outputPath": "C:\\dockcorecross\\temperature\\obj\\",
+        "outputPath": "C:\\dockcorecross\\Temperature\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AG_2021SER01\\AppData\\Roaming\\NuGet\\NuGet.Config",

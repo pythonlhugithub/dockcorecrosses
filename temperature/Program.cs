@@ -1,7 +1,11 @@
-using Dockcorecross.temperature;
+using System.Linq;
+using Dockcorecross.Temperature.DataAccess;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 

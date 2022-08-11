@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace Dockcorecross.reports.DataAccess;
+namespace Dockcorecross.Reports.DataAccess;
+
 public class ReprotDbContext : DbContext {
 public ReprotDbContext()
 {

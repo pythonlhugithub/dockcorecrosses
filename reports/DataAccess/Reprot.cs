@@ -1,4 +1,4 @@
-namespace Dockcorecross.reports.DataAccess;
+namespace Dockcorecross.Reports.DataAccess;
 public class Reprot{
     public Guid id {get;set;}
       public DateTime CreatedOn {get;set;}

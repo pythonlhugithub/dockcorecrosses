@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dockcorecross\\reports\\reports.csproj": {}
+    "C:\\dockcorecross\\Reports\\reports.csproj": {}
   },
   "projects": {
-    "C:\\dockcorecross\\reports\\reports.csproj": {
+    "C:\\dockcorecross\\Reports\\reports.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dockcorecross\\reports\\reports.csproj",
+        "projectUniqueName": "C:\\dockcorecross\\Reports\\reports.csproj",
         "projectName": "reports",
-        "projectPath": "C:\\dockcorecross\\reports\\reports.csproj",
+        "projectPath": "C:\\dockcorecross\\Reports\\reports.csproj",
         "packagesPath": "C:\\Users\\AG_2021SER01\\.nuget\\packages\\",
-        "outputPath": "C:\\dockcorecross\\reports\\obj\\",
+        "outputPath": "C:\\dockcorecross\\Reports\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AG_2021SER01\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.ENtityFrameworkCore.relational": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
             "Microsoft.EntityFrameworkcore": {
               "target": "Package",
               "version": "[6.0.8, )"

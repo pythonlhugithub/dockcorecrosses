@@ -12,6 +12,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.ENtityFrameworkCore.relational" Version="6.0.8" />
     <PackageReference Include="Microsoft.EntityFrameworkcore.sqlserver" Version="6.0.8" />
     <PackageReference Include="Microsoft.EntityFrameworkcore.tools" Version="6.0.8">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

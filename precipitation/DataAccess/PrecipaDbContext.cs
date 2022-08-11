@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace Dockcorecross.precipitation;
+namespace Dockcorecross.Precipitation.DataAccess;
 public class PrecipDbContext : DbContext{
 public PrecipDbContext()
 {

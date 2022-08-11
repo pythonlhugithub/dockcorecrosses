@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace Dockcorecross.temperature;
+namespace Dockcorecross.Temperature.DataAccess;
 public class TemperDbContext : DbContext{
 
 public TemperDbContext()
@@ -14,7 +14,7 @@ public TemperDbContext(DbContextOptions opts):base(opts)
 }
 
 
-    public DbSet<Temperature>? Temperature{get;set;}
+    public DbSet<Temperature> Temperature{get;set;}
 
 protected override void OnModelCreating(ModelBuilder modelbuilder){
     base.OnModelCreating(modelbuilder);

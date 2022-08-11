@@ -1,9 +1,14 @@
-using Dockcorecross.precipitation;
+using System.Linq;
+using Dockcorecross.Precipitation.DataAccess;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
+
 
 builder.Services.AddDbContext<PrecipDbContext>(
     opts=>{
@@ -13,7 +18,7 @@ builder.Services.AddDbContext<PrecipDbContext>(
     }, ServiceLifetime.Transient
 );  //link program.cs to dbcontext database
 
-
+var app = builder.Build();
 app.MapGet("/okkv/{zip}", async(string? zip, [FromQuery] int? days, PrecipDbContext db)=>{
 
 // if(zip==null)
