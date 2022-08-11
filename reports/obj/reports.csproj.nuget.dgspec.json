@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dockcorecross\\Reports\\reports.csproj": {}
+    "C:\\dockcorecross\\reports\\reports.csproj": {}
   },
   "projects": {
-    "C:\\dockcorecross\\Reports\\reports.csproj": {
+    "C:\\dockcorecross\\reports\\reports.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dockcorecross\\Reports\\reports.csproj",
+        "projectUniqueName": "C:\\dockcorecross\\reports\\reports.csproj",
         "projectName": "reports",
-        "projectPath": "C:\\dockcorecross\\Reports\\reports.csproj",
+        "projectPath": "C:\\dockcorecross\\reports\\reports.csproj",
         "packagesPath": "C:\\Users\\AG_2021SER01\\.nuget\\packages\\",
-        "outputPath": "C:\\dockcorecross\\Reports\\obj\\",
+        "outputPath": "C:\\dockcorecross\\reports\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AG_2021SER01\\AppData\\Roaming\\NuGet\\NuGet.Config",

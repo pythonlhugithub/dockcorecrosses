@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GloF1c0he7qVEXiUe0L8o5PlHuL/XOIx1rWKpDIc/t7iUFvG+CrbsNPocHRRZONjKbxuaJgCggcuc/dZ0djgIg==",
+  "dgSpecHash": "hhH2349O8S9X5cew9y85njw4trjqkL19Ms0mUnLpu7+JdIUDUl2Lm1QD1UQU2bre2ajq4DLoqLFEfas0PGoxRA==",
   "success": true,
-  "projectFilePath": "C:\\dockcorecross\\Precipitation\\precipitation.csproj",
+  "projectFilePath": "C:\\dockcorecross\\precipitation\\precipitation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AG_2021SER01\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\AG_2021SER01\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
